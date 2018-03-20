@@ -1,1 +1,121 @@
-"# rupiahx.github.io" 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>RupiahX - Mata Uang Digital Dari Indonesia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <style media="all">
+        body{
+            font-size: 1.1em;
+            background-color: white;
+            color: white ;
+        }
+        img{
+            max-width: 100%;
+        }
+        .pavi{
+            background: linear-gradient(-70deg, #ff5bb9 30%, rgba(250, 0, 147, 0.18) 30%), url('images/1.jpg') left;
+            background-position: top;
+            background-size: cover;
+            padding-bottom: 3px;
+            padding-right: 3px;
+        }
+
+        .tulisanjudul{
+            color: white;
+            font-size: 1.4em;
+        }
+        .tulisansubjudul{
+            color: #f7f7f7;
+            font-size: 1.3em;
+        }
+    </style>
+    <script src="js/typed.js"></script>
+</head>
+<body>
+<section class="hero pavi is-fullheight">
+
+    <div class="hero-head">
+        <nav class="navbar">
+            <!--<div class="container">-->
+                <div id="navbarMenuHeroB" class="navbar-menu">
+                    <div class="navbar-end">
+                        <!--<a class="navbar-item">Services</a>-->
+                        <!--<a class="navbar-item">Portofolio</a>-->
+                        <!--<a class="navbar-item">Contact</a>-->
+                        <span class="navbar-item">
+                          <a href="#donation" class="button is-info is-inverted">
+                            <span class="icon">
+                              <i class="fab fa-google"></i>
+                            </span>
+                            <span>Donate Here</span>
+                          </a>
+                        </span>
+                    </div>
+                </div>
+            <!--</div>-->
+        </nav>
+    </div>
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                <span class="tulisanjudul" id="type"></span>
+            </h1>
+            <h2 class="subtitle">
+               <span class="tulisansubjudul"> Cryptocurrency Asli Indonesia Untuk Kepentingan Bersama.</span>
+            </h2>
+        </div>
+    </div>
+    <div class="hero-foot">
+        <div class="has-text-right">
+            <p>&copy; 2018 <strong>RupiahX</strong> - Crypcocurrency Buatan Indonesia</p>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-info is-fullheight">
+    <div class="hero-head">
+        <div class="container">
+        </div>
+    </div>
+    <a name="donation"></a>
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <p><h2 class="title is-1">DONATION</h2></p>
+            <div class="columns">
+                <div class="column is-6">
+                    <h3 class="title is-3">Bitcoin</h3>
+                    <p>1C8rsUvVup1otSCMqLiM6JAXUMk5dsM5oD</p>
+                    <hr>
+                    <h3 class="title is-3">Bitcoin Cash</h3>
+                    <p>qpaztmx033ql08teya4mjmt8acjnsv46rct5wc8hmw</p>
+                </div>
+                <div class="column is-6">
+                    <h3 class="title is-3">Etherium : </h3>
+                    <p>0x7c5B1E9cAE22CB4f7d1cb1D8EFa58333116FDE9e</p>
+                    <p><strong>OR</strong></p>
+                    <p>0x2898aD28640806EFb4e7AbB2C758864a4B4EdE40</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer has-text-centered has-text-black">
+    <p>&copy; 2018 <strong>RupiahX</strong> - Cryptocurrency Buatan Indonesia.</p>
+    <p>Koin ini saat ini dalam proses pengembangan. Donasi yang anda kirimkan ke kami, nantinya akan kami gunakan untuk pembelian alat alat infrastruktur pendukung koin ini.</p>
+</footer>
+
+<script type="text/javascript">
+    var type = new Typed('#type', {
+        strings: ['RUPIAHX ADALAH BLOKCHAIN NYATA', 'DIBUAT OLEH <strong>KOMUNITAS</strong>','3 KALI LEBIH AMAN DARI BITCOIN','20 KALI LEBIH CEPAT DARI ETHERIUM'],
+        typeSpeed: 90,
+        backSpeed: 0,
+        smartBackspace: true, // this is a default
+        loop: true
+    });
+
+</script>
+</body>
+</html>
